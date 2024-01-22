@@ -22,15 +22,15 @@ playerN2 = input("Player number 2, Enter your name: ")
 
 start(playerN1, playerN2)
 
-print(playerN1 + ' here is the inside of your box:')
+print(playerN1.upper() + ' here is the inside of your box:')
 
 random_box()
 
-input(f"Before {playerN2} open their eyes, Please press Enter...")
+input(f"Before {playerN2.upper()} open their eyes, Please press Enter...")
 
-print("\n"*100)
+print("\n"*80)
 
-print(f"Now {playerN2}, You have to decide either to keep your BOX or swap the BOX!")
+print(f"Now {playerN2.upper()}, You have to decide either to keep your BOX or swap the BOX!")
 
 player2_decide()
 
